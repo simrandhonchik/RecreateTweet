@@ -1,1 +1,51 @@
-test{align-items: center;}
+
+.handleTime{
+    color: gray;
+}
+
+.middle-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+img{
+    display: flex;
+    align-self: center;
+    border-radius: 100px;
+    width:75px;
+    height:75px;
+}
+
+.block {
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    padding-left: 50px;
+}
+address{
+    display: block;
+}
+
+#hello{
+    display:block;
+}
+
+
+button{
+    position: relative;
+    display:block;
+}
+#topBox{
+    border-radius: 15px;
+    background-color: orange;
+    left: 400px;
+    padding: 20px; 
+    width: 400px;
+    height: 100px; 
+    text-align: left;
+    color: white;
+    font-size:35px;
+    border-style: solid gray;
+    border-width: 2px;
+  }
